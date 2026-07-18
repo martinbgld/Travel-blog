@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Iceland';
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 16px;
+}
+h1{
+    font-size: 3.25rem;
+    color: rgba(78, 164, 135, 1);
+    font-weight: 700;
+}
