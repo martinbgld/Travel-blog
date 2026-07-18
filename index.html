@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog</title>
+  <title>Travel-Blog</title>
 
   <link rel="stylesheet" href="./styles/standard.css">
   <link rel="stylesheet" href="./styles/font.css">
@@ -34,9 +34,38 @@
         <p>Have a question or an idea to collaborate?</p>
         <p>Get in touch—I'd love to hear from you and explore how we can work together.</p>
       </div>
-      <div class="contact-form-input">
 
-      </div>
+      <form class="contact-form-input" action="">
+        <div class="cfi-row-2element">
+          <div class="cfi-container-small">
+            <label for="cfi-name">What's your name?</label><br>
+            <input type="text" id="cfi-name" name="cfi-name">
+          </div>
+          <div class="cfi-container-small">
+            <label for="cfi-email">What's your email?</label><br>
+            <input type="text" id="cfi-email" name="cfi-email">
+          </div>
+        </div>
+        <div class="cfi-row-1element">
+          <div class="cfi-container-large">
+            <label for="cfi-question">How can I help?</label><br>
+            <input type="text" id="cfi-question" name="cfi-question">
+          </div>
+        </div>
+        <div class="cfi-send">
+          <div class="cfi-check">
+            <input type="checkbox" id="cfi-check" name="cfi-check">
+            <p>I've read the <a href="privacy policy.html" target="_blank">privacy policy</a> and agree to the
+              processing
+              of my data as
+              outlined.</p>
+          </div>
+
+          <button type="submit" value="Send">Send</button>
+        </div>
+      </form>
+
+
     </section>
   </main>
   <footer class="foot">

@@ -1,63 +1,145 @@
-main{
+main {
     width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 120px;
+    margin-bottom: 120px;
 }
 
-.faq{
+.faq {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 48px;
 }
-.faq-headline{
+
+.faq-headline {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
-        margin-bottom: 24px;
-}
-
-.faq-headline >img{
-    width: 48px;
-    height: 48px;
-}
-
-.contact-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- 
-}
-.contact-form-head{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 56px;       
-}
-
-.contact-form-headline{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+    gap: 1rem;
     margin-bottom: 24px;
 }
 
-.contact-form-headline >img{
+.faq-headline>img {
     width: 48px;
     height: 48px;
 }
-.contact-form-head >p{
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-form-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.contact-form-headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 24px;
+}
+
+.contact-form-headline>img {
+    width: 48px;
+    height: 48px;
+}
+
+.contact-form-head>p {
     font-family: var(--maintextfamily);
     font-size: 1.5rem;
     color: rgba(84, 55, 13, 1);
     font-weight: 500;
 }
 
-.foot{
+.contact-form-input {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-form-input label {
+    font-family: var(--maintextfamily);
+    font-size: 1.5rem;
+    color: rgba(84, 55, 13, 1);
+    font-weight: 500;
+}
+
+.contact-form-input input[type=text] {
+    border: none;
+    border-bottom: 1px solid rgba(84, 55, 13, 1);
+    width: 100%;
+    margin: 17px 0px;
+    font-family: var(--inputtextfamily);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cfi-container-small {
+    width: 527px;
+}
+
+.cfi-container-large {
+    width: 1100px;
+}
+
+.cfi-row-1element {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.cfi-row-2element {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.cfi-check{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.cfi-check p{
+    font-family: var(--maintextfamily);
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(84, 55, 13, 1);
+}
+
+.cfi-send{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.cfi-send button{
+    width: 139px;
+    height: 48px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 1px solid rgba(48, 48, 48, 0.5);
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(115, 115, 115, 1);
+}
+
+   
+.foot {
     height: 152px;
     background-color: rgba(78, 164, 135, 1);
     display: flex;
@@ -65,47 +147,50 @@ main{
     align-items: center;
 }
 
-.foot-content{
+.foot-content {
     width: 1440px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
-.foot-content-left{
+.foot-content-left {
     display: flex;
     align-items: center;
     gap: 72px;
 }
-.foot-content-left-copyright{
+
+.foot-content-left-copyright {
     display: flex;
     align-items: center;
     gap: 4px;
 }
 
-.foot-content-left-copyright p{
+.foot-content-left-copyright p {
     font-family: var(--foottextfamily);
     font-size: 1rem;
     color: white;
 }
 
-.foot-content-left a{
+.foot-content-left a {
     font-family: var(--foottextfamily);
     font-size: 1rem;
     color: white;
 }
-.foot-content-right{
+
+.foot-content-right {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-.foot-content-right img{
+.foot-content-right img {
     height: 32px;
     width: 100%;
     transition: all 250ms ease-in-out;
 }
-.foot-content-right img:hover{
+
+.foot-content-right img:hover {
     width: 120%;
     height: 120%;
 }
