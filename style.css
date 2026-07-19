@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@ main {
     margin-bottom: 120px;
 }
 
-.faq {
+.faq-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,21 +33,67 @@ main {
     height: 48px;
 }
 
-.contact-form {
+.faq-content{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.faq-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 14px;
+    gap: 8px;
+    border-radius: 12px;
+    background-color: rgba(241, 201, 83, 1);
+}
+
+.faq-item-sum{
+    font-family: var(--maintextfamily);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(84, 55, 13, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item >p{
+    font-family: var(--maintextfamily);
+    font-size: 1rem;
+    color: rgba(54, 53, 52, 1);
+    padding: 4px 10px;
+    background-color: white;
+    border-radius:5px;
+}
+
+.faq-sum img{
+    width: 24px;
+    height: auto;
+}
+
+.faq-item:open .faq-item-sum img{
+    rotate: 180deg;
+}
+
+.contact-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-.contact-form-head {
+.contact-section-head {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 56px;
 }
 
-.contact-form-headline {
+.contact-section-headline {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,12 +101,12 @@ main {
     margin-bottom: 24px;
 }
 
-.contact-form-headline>img {
+.contact-section-headline>img {
     width: 48px;
     height: 48px;
 }
 
-.contact-form-head>p {
+.contact-section-head>p {
     font-family: var(--maintextfamily);
     font-size: 1.5rem;
     color: rgba(84, 55, 13, 1);
@@ -92,47 +138,38 @@ main {
     font-weight: bold;
 }
 
-.cfi-container-small {
-    width: 527px;
+.cfi-container {
+    flex: 1 0 120px;
 }
 
-.cfi-container-large {
-    width: 1100px;
-}
-
-.cfi-row-1element {
+.cfi-row {
     width: 100%;
     display: flex;
-    justify-content: left;
-}
-
-.cfi-row-2element {
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 48px;
 }
 
-.cfi-check{
+.cfi-check {
     display: flex;
     gap: 1rem;
     padding-bottom: 1.5rem;
 }
 
-.cfi-check p{
+.cfi-check p {
     font-family: var(--maintextfamily);
     font-size: 1rem;
     font-weight: 400;
     color: rgba(84, 55, 13, 1);
 }
 
-.cfi-send{
+.cfi-send {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
 }
 
-.cfi-send button{
+.cfi-send button {
     width: 139px;
     height: 48px;
     border-radius: 40px;
@@ -144,7 +181,6 @@ main {
     color: rgba(115, 115, 115, 1);
 }
 
-   
 .foot {
     height: 152px;
     width: 100%;
