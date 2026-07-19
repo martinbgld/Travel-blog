@@ -1,4 +1,6 @@
 :root {
-    --maintextfamily: 'Courier New', Courier, monospace;
-    --foottextfamily: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --maintextfamily: 'palanquin';
+    --foottextfamily:  'palanquin';
+    --inputtextfamily: 'Roboto Mono';
+    --headlinefontfamily: 'arima';
 }
