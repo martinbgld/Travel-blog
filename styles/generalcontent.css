@@ -1,0 +1,17 @@
+main{
+    width: 800px;
+    display: flex;
+    justify-content: left;
+    gap: 32px;
+}
+
+main p{
+    font-family: var(--maintextfamily);
+    font-size: 1rem;
+}
+
+main h3{
+    font-family: var(--maintextfamily);
+    font-size: 1.5rem;
+    color: black;
+}
