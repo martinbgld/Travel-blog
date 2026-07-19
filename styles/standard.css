@@ -28,3 +28,39 @@ h3{
     color: rgba(78, 164, 135, 1);
     font-weight: 700;
 }
+h4{
+    font-family: palanquin;
+    font-size: 2.5rem;
+    color: rgba(78, 164, 135, 1);
+    font-weight: 600;
+}
+.headarticle{
+    height: 390px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headarticle-left{
+    width: 900px;
+    height: 390px;
+    display:inline;
+}
+.headarticle-left h1{
+    color: rgba(241, 201, 83, 1);
+}
+
+.headarticle-left p{
+    font-family: palanquin;
+    font-size: 2rem;
+    color: rgba(84, 55, 13, 1);
+}
+.headarticle-right{
+    width: 272px;
+    background-color: rgba(78, 164, 135, 0.2);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+}
