@@ -43,17 +43,38 @@ h4{
 .headarticle-left{
     width: 900px;
     height: 390px;
-    display:inline;
+    display:flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 .headarticle-left h1{
     color: rgba(241, 201, 83, 1);
+    line-height: 1.15;
 }
 
 .headarticle-left p{
     font-family: palanquin;
-    font-size: 2rem;
+    font-size: 1.75rem;
+    line-height: 1.3;
     color: rgba(84, 55, 13, 1);
 }
+
+.headarticle-foot{
+    display: flex;
+    justify-content:left;
+    gap: 32px;
+}
+.headarticle-footelement{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.headarticle-footelement p{
+    font-family: palanquin;
+    font-size: 1rem;
+    color: rgba(84, 55, 13, 1);
+}
+
 .headarticle-right{
     width: 272px;
     background-color: rgba(78, 164, 135, 0.2);
@@ -63,4 +84,27 @@ h4{
     align-items: center;
     padding: 16px;
     gap: 16px;
+}
+
+.headarticle-right p:first-child{
+    font-family: arima;
+    font-size: 1.15rem;
+    line-height: 1.1;
+    font-weight: 700;
+    color: rgba(84, 55, 13, 1);
+    text-align: center;
+}
+.headarticle-right p:nth-child(2){
+    font-family: arima;
+    font-size: 1.15rem;
+    line-height: 1.1;
+    color: rgba(84, 55, 13, 1);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.headarticle-right p:last-child{
+    font-family: palanquin;
+    font-size: 1rem;
+    line-height: 1.15;
+    color: rgba(84, 55, 13, 1);
 }
